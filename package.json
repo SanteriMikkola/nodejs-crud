@@ -1,29 +1,23 @@
 {
   "name": "nodejs-crud",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SanteriMikkola/nodejs-crud.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SanteriMikkola/nodejs-crud/issues"
-  },
-  "homepage": "https://github.com/SanteriMikkola/nodejs-crud#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "cookie-parser": "^1.4.5",
-    "express": "^4.17.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
     "express-flash": "0.0.2",
     "express-session": "^1.17.2",
+    "http-errors": "~1.6.3",
     "method-override": "^3.0.0",
-    "multer": "^1.4.3",
+    "morgan": "~1.9.1",
     "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "@types/path-to-regexp": "^1.7.0"
   }
 }
